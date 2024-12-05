@@ -1,0 +1,88 @@
+/* Estilo base */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdf2e9; /* Fondo suave de color naranja */
+  color: #333; /* Texto oscuro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #22a8e6; /* Naranja oscuro */
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Estilo principal del conversor */
+.converter {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo de las etiquetas */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #e62222; /* Naranja oscuro */
+}
+
+/* Estilo de los inputs, select y botones */
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo del botón */
+button {
+  background-color: #e67e22; /* Naranja brillante */
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00d300; /* Naranja más oscuro al pasar el ratón */
+}
+
+/* Estilo para el grupo de salida */
+.output-group p {
+  font-weight: bold;
+  color: #e67e22; /* Naranja oscuro */
+}
+
+#outputValue {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e67e22; /* Naranja oscuro para el resultado */
+}
+
+/* Estilo del pie de página */
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
